@@ -1,0 +1,18 @@
+{
+  "name": "webco-task-3-migration",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Task 3 migration script from Sanity CMS source data to Directus REST API.",
+  "scripts": {
+    "migrate": "tsx migration/migrate.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,13 @@
+# Copy this file to terraform.tfvars locally only. Do not commit real values.
+project             = "webco-cms"
+environment         = "dev"
+location            = "australiaeast"
+resource_group_name = "rg-webco-cms-dev-aue"
+
+# Use CI secrets or TF_VAR_* environment variables in real use.
+postgres_admin_password = "REPLACE_WITH_SECURE_VALUE"
+directus_key            = "REPLACE_WITH_SECURE_VALUE"
+directus_secret         = "REPLACE_WITH_SECURE_VALUE"
+
+# Keep PostgreSQL closed by default. Add trusted IPs only for short-lived test access.
+allowed_public_ip_ranges = []
