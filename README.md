@@ -1,6 +1,6 @@
-﻿## azure-cms-platform-assignment-test further improvements.  (Task 5)
+﻿## If you had 1 extra day for this assignment - further improvements.  (Task 5)
 
-### If I had one additional day, I would focus on improving production readiness, security, observability and deployment reliability across the platform.
+I would focus on improving production readiness, security, observability and deployment reliability across the platform.
 
 First, I would enhance the Terraform infrastructure by introducing reusable modules, environment separation (dev/staging/prod), remote state storage and state locking using Azure Storage Accounts. I would also add diagnostic settings and monitoring integrations for PostgreSQL, Container Apps and Key Vault.
 
